@@ -159,15 +159,4 @@ g++ -v -o simulador main.cpp BarberiaSimulador.cpp
 6. **Probar modo 2** (Manual) para control total
 7. **Experimentar modo 3** (Personalizado) con diferentes configuraciones
 
-## Valor Educativo
 
-Este simulador es perfecto para:
-- **Introducir** el problema del barbero dormilon
-- **Visualizar** conceptos de colas y recursos limitados
-- **Experimentar** con diferentes configuraciones
-- **Entender** logica de sistemas sin complejidades tecnicas
-- **Analizar** eficiencia de sistemas de atencion
-
----
-
-**Simulador educativo desarrollado para el estudio del Problema del Barbero Dormilon**# barbero
