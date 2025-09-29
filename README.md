@@ -96,12 +96,6 @@ LISTO = Barbero esperando siguiente cliente
 - Inicializacion y bucle principal
 - Punto de entrada del ejecutable
 
-## Requisitos
-
-- **Sistema**: Windows
-- **Compilador**: g++ (MinGW, Dev-C++, Code::Blocks)
-- **Memoria**: Minima
-- **Conocimientos**: Basicos de C++
 
 ## Conceptos Demostrados
 
@@ -118,36 +112,6 @@ LISTO = Barbero esperando siguiente cliente
 g++ -o simulador main.cpp BarberiaSimulador.cpp
 ```
 
-### Dev-C++
-1. Crear nuevo proyecto
-2. Agregar los 3 archivos al proyecto
-3. Compilar y ejecutar
-
-### Code::Blocks
-1. File → New → Project → Console Application
-2. Agregar archivos existentes al proyecto
-3. Build & Run
-
-### Visual Studio
-1. Crear nuevo proyecto de consola
-2. Agregar archivos al proyecto
-3. Compilar en modo Release
-
-## Solucion de Problemas
-
-### Error de compilacion
-```batch
-# Verificar compilador
-g++ --version
-
-# Compilacion con mas detalles
-g++ -v -o simulador main.cpp BarberiaSimulador.cpp
-```
-
-### Errores comunes
-- **"No such file"**: Verificar que todos los archivos esten en el mismo directorio
-- **"Undefined reference"**: Asegurar que estas compilando ambos archivos .cpp
-- **Encoding issues**: Guardar archivos con codificacion UTF-8
 
 ## Ejemplo de Uso
 
